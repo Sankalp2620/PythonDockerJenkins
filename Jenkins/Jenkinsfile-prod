@@ -11,8 +11,8 @@ pipeline {
 
     environment {
         APP_NAME = "library-app"
-        PILOT_SERVER = "pilot-server.company.com"
-        PROD_SERVER = "prod-server.company.com"
+        PILOT_SERVER = "pilot-serveripaddress.company.com"
+        PROD_SERVER = "prod-serveripaddress.company.com"
     }
 
     stages {
